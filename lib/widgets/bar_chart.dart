@@ -2,16 +2,16 @@
 import 'package:fl_chart/fl_chart.dart';
 import 'package:flutter/material.dart';
 
-class BarChartSample2 extends StatefulWidget {
-  BarChartSample2({super.key});
+class BarChartWidget extends StatefulWidget {
+  const BarChartWidget({super.key});
   final Color leftBarColor = Colors.yellow;
   final Color rightBarColor = Colors.red;
   final Color avgColor = Colors.orange;
   @override
-  State<StatefulWidget> createState() => BarChartSample2State();
+  State<StatefulWidget> createState() => BarChartWidgetState();
 }
 
-class BarChartSample2State extends State<BarChartSample2> {
+class BarChartWidgetState extends State<BarChartWidget> {
   final double width = 8;
 
   late List<BarChartGroupData> rawBarGroups;
